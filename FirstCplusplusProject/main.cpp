@@ -6,7 +6,7 @@
 //  Copyright © 2019 Judkins, Jensen. All rights reserved.
 //
 
-#include <iostream>
+#include <iostream> // gang signs are for library level imports, aka copiled code that already exists. +include is to import other files in your project
 
 int main() {
     // insert code here...

@@ -11,7 +11,7 @@
 int main() {
     // insert code here...
     // colon colon means scope resolution, so that the c operation lives inside the standard library. Basically data member. << is the output stream indicator, aka stuff on the right side puts that stuff on the output. >> are for input.
-    //cin uses the >> operator and takes in information. cin>>variable;
+    //cin uses the >> operator and takes in information. cin>>variable; It can only grab one input at a time
     //std is the standard library
     //namespace helps organize code sorta like a package
     //#include is like import for libraries. not for cpp only hpp and only do it once
@@ -28,6 +28,7 @@ int main() {
     //** an array is just a pointer, so pointer pointer. Means its an array of pointers
     //lvalue stuff on the left of equation
     //rvalue stuff on the right of the equation
+    //endl makes the end of the line basicallly. It makes a new line for new output.
     std::cout << "Back to C++! Hopefully I remember my stuff from two years ago.\n";
     return 0;
 }
